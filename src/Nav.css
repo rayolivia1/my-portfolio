@@ -1,0 +1,12 @@
+/*Navbar.css*/
+
+.nav-link {
+    font-family: 'Poppins', san-serif;
+    color: #d09545;
+    text-decoration: none;
+    padding: 8px 8px;
+}
+
+.nav-link:hover {
+    color: #e2b522;
+}
