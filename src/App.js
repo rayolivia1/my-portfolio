@@ -14,11 +14,12 @@ import About from './About';
 function App() {
   return (
     <Router>
+      {/* <header className = "my-header"> */}
       <main className = "app-wrapper">
         <nav className = "nav-bar">
           <NavLink to = "/" className = "nav-link">Home</NavLink>
           <NavLink to = "/projects" className = "nav-link">Projects</NavLink>
-          <NavLink to = "/exhibits" className = "nav-link">Exhibts</NavLink>
+          <NavLink to = "/exhibits" className = "nav-link">Exhibits</NavLink>
           <NavLink to = "/about" className = "nav-link">About Me</NavLink>
         </nav>
 
@@ -29,6 +30,7 @@ function App() {
         <Route path = "/about" element = {<About/>} />
       </Routes>
       </main>
+      {/* </header> */}
     </Router>
   )
 }

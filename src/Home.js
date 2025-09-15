@@ -1,13 +1,14 @@
 //Home.js
 import './Background.css';
 import LogoLoop from './Logo-Loop/Logo-Loop';
-import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss } from 'react-icons/si';
+// import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss } from 'react-icons/si';
+import Contact from './Contact-Me';
 
 const imageLogos = [
-  { src: "/logos/figma-icon.png", alt: "Company 1", href: "https://www.figma.com/team_invite/redeem/m0PfLgcUWClUM3ro7tH3J3" },
-  { src: "/logos/git-icon.png", alt: "Company 2", href: "https://github.com/rayolivia1" },
-  { src: "/logos/react-icon-pic.png", alt: "Company 3", href: "https://www.kaggle.com/oliviagrayborn" },
-  { src: "/logos/linked-in-icon.png", alt: "Company 4", href: "https://www.linkedin.com/in/olivia-rb/" }
+  { src: "/logos/figma-icon2.png", alt: "Company 1", href: "https://www.figma.com/team_invite/redeem/m0PfLgcUWClUM3ro7tH3J3" },
+  { src: "/logos/git-icon-2.png", alt: "Company 2", href: "https://github.com/rayolivia1/my-portfolio" },
+  { src: "/logos/kaggle-icon3.png", alt: "Company 3", href: "https://www.kaggle.com/oliviagrayborn" },
+  { src: "/logos/linkedin-icon2 (1).png", alt: "Company 4", href: "https://www.linkedin.com/in/olivia-rb/" }
 
 ];
 
@@ -20,7 +21,7 @@ function Home () {
 expertise, I transform complex datasets into artistic educational exhibits that focus on public health crises and humanize 
 impacted communities. My work seamlessly blends storytelling with alluring visual experiences to spread awareness and 
 inspire meaningful action." </p></div>
-        <div className = "contact-me-page-container"> </div>
+        <div className = "contact-me-page-container"><Contact/></div>
     <div style={{height: '75px', position: 'relative', overflow: 'hidden'}}>
       <LogoLoop
         logos={imageLogos}
@@ -31,7 +32,7 @@ inspire meaningful action." </p></div>
         pauseOnHover
         scaleOnHover
         fadeOut
-        fadeOutColor="#ffffff"
+        fadeOutColor="#dbc19eff"
         ariaLabel="Technology partners"
       />
         </div>

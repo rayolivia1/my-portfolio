@@ -1,29 +1,34 @@
 body {
-  background-color: #B88870; 
+  /* background-color: #B88870;  */
+  background-color: #f5e2ce;
   overflow-x: hidden;
   overflow-y: auto;
 } 
 
 .my-header {
     background-color: #2e4057;
+    /* padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 15px; */
 }
 
 .background-container {
-    background-image: url('./components/yellow-blue.jpg');
+    background-image: url('./components/page_1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 95vh;
 }
 
 .hero-page-container {
-  background-image: url('./components/middle-home-image.jpg');
+  background-image: url('./components/page_2 (3).jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 110vh;
 }
 
 .contact-me-page-container {
-  background-image: url('./components/contact-me-form.jpg');
+  background-image: url('./components/page_3.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -45,26 +50,39 @@ body {
 }
 
 .center-container {
-  background-color: #8B2635;
+  background-color: #f5e2ce;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 50vh;
   width: 100%;
   text-align: center;
-  font-size: 2rem;
-  color: rgb(249, 200, 70);
+  font-size: 1.5rem;
+  color: #90652d;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .summary-container {
-  background-color: #B88870;
+  /* background-color: #B88870; */
+  background-color: #f5e2ce;
   display: flex;
   text-align: center;
   padding: 10%;
-  color: rgb(249, 200, 70); 
+  /* color: rgb(249, 200, 70);  */
+  color: #b53324;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   letter-spacing: 1vh;
   line-height: 1.5;
 }
 
+.project-center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  text-align: center;
+  letter-spacing: 1vh;
+  line-height: 1.5;
+  color: rgb(249, 200, 70);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

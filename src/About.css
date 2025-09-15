@@ -1,0 +1,18 @@
+.about-me-page-container {
+  background-image: url('./components/about-me-page1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.about-center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  text-align: center;
+  letter-spacing: 1vh;
+  line-height: 1.5;
+  color: rgb(249, 200, 70);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

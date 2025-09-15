@@ -1,0 +1,32 @@
+.exhibit-page-container {
+  background-image: url('./components/exhibit-1-new (2).jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.exhibit-center-container {
+  background-color: #f5e2ce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  color: #e5a657;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.background-center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  text-align: center;
+  letter-spacing: 1vh;
+  line-height: 1.5;
+  color: rgb(249, 200, 70);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
