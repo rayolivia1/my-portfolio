@@ -18,13 +18,14 @@
     "sweetalert2": "^11.23.0",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "predeploy": "npm run build && copyfiles public/404.html build",
-    "deploy": "gh-pages -d build",
-    "test": "craco test"
-  },
+"scripts": {
+  "start": "craco start",
+  "build": "craco build",
+  "predeploy": "npm run build && copyfiles public/404.html build",
+  "deploy": "gh-pages -d build -u \"github-actions-bot <support+actions@github.com>\"",
+  "test": "craco test"
+},
+
   "eslintConfig": {
     "extends": [
       "react-app",
