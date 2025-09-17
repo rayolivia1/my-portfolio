@@ -1,7 +1,7 @@
 //Home.js
 import './Background.css';
 import LogoLoop from './Logo-Loop/Logo-Loop';
-// import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss } from 'react-icons/si';
+
 import Contact from './Contact-Me';
 import FigmaIcon from './logos/figma-icon2.png'
 import GitIcon from './logos/git-icon-2.png'
