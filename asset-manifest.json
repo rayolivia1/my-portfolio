@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.ad6a06c4.css",
+    "main.js": "/my-portfolio/static/js/main.8ace3be3.js",
+    "static/js/453.b21a91d2.chunk.js": "/my-portfolio/static/js/453.b21a91d2.chunk.js",
+    "static/media/page_2-3.jpg": "/my-portfolio/static/media/page_2-3.dc43860482dbff98af01.jpg",
+    "static/media/exhibit-1-new (2).jpg": "/my-portfolio/static/media/exhibit-1-new (2).059143a259621b9d2afc.jpg",
+    "static/media/about-me-page1.jpg": "/my-portfolio/static/media/about-me-page1.a4c82612753957bd189b.jpg",
+    "static/media/projects-page-updated.jpg": "/my-portfolio/static/media/projects-page-updated.a53945e1d8efb1c69fc0.jpg",
+    "static/media/page_3.jpg": "/my-portfolio/static/media/page_3.a316037b0ac2307440b3.jpg",
+    "static/media/page_1.jpg": "/my-portfolio/static/media/page_1.54036f4caed628944093.jpg",
+    "static/media/linkedin-icon02.png": "/my-portfolio/static/media/linkedin-icon02.a6ed1557013bf1ada6db.png",
+    "static/media/kaggle-icon3.png": "/my-portfolio/static/media/kaggle-icon3.85d9a045c86e8d816ca3.png",
+    "static/media/git-icon-2.png": "/my-portfolio/static/media/git-icon-2.50c8a64761d5cb9bbc6d.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.ad6a06c4.css.map": "/my-portfolio/static/css/main.ad6a06c4.css.map",
+    "main.8ace3be3.js.map": "/my-portfolio/static/js/main.8ace3be3.js.map",
+    "453.b21a91d2.chunk.js.map": "/my-portfolio/static/js/453.b21a91d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad6a06c4.css",
+    "static/js/main.8ace3be3.js"
+  ]
+}
