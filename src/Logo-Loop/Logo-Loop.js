@@ -6,6 +6,7 @@ import {
   useState,
   memo
 } from "react";
+
 import "./Logo-Loop.css";
 
 const ANIMATION_CONFIG = {

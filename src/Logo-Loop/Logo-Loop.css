@@ -85,7 +85,7 @@
   align-items: center;
   text-decoration: none;
   border-radius: 4px;
-  transition: opacity 0.2s ease;
+  transition: opacity 0.5s ease;
 }
 
 .logoloop__link:hover {
@@ -113,7 +113,8 @@
   background: linear-gradient(to right,
       var(--logoloop-fadeColor, var(--logoloop-fadeColorAuto)) 0%,
       rgba(239, 239, 239, 0) 80%);
-} */
+}
+/*Rogue found here */
 
 .logoloop--fade::after {
   right: 0;
