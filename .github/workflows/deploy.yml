@@ -21,6 +21,6 @@ jobs:
 
       - name: Deploy to GitHub Pages
         run: |
-          npx gh-pages -d build -u "Olivia orayb2@uic.edu"
+          npx gh-pages -d build -u "Olivia Ray <oliviarayg@gmail.com>"
         env:
           GH_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
