@@ -22,7 +22,7 @@
   "start": "craco start",
   "build": "craco build",
   "predeploy": "npm run build && copyfiles public/404.html build",
-  "deploy": "gh-pages -d build -u \"github-actions-bot <support+actions@github.com>\"",
+  "deploy": "gh-pages -d build -u \"github-actions-bot <support+actions@github.com>\" --repo https://${GH_PAGES_TOKEN}@github.com/<rayolivia1>/<my-portfolio>.git",
   "test": "craco test"
 },
 
