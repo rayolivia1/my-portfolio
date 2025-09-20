@@ -20,9 +20,9 @@ jobs:
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        run: |
-          - name: Deploy to GitHub Pages
-  run: |
-    npx gh-pages -d build -r https://x-access-token:${{ secrets.GH_PAGES_TOKEN }}@github.com/<rayolivia1>/<my-portfolio>.git -u "Olivia <orayb2@uic.edu>"
         env:
           GH_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
+        run: |
+          npx gh-pages -d build \
+            -r https://x-access-token:${{ secrets.GH_PAGES_TOKEN }}@github.com/<rayolivia1>/my-portfolio.git \
+            -u "Olivia <orayb2@uic.edu>"
